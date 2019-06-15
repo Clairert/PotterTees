@@ -36,6 +36,7 @@ h1{
 }
 
 body{
+    cursor:url(Images/cursor.png), auto;
     background:-moz-repeating-linear-gradient(45deg,
 purple 20px,
 indigo 60px,
@@ -257,3 +258,12 @@ font-style: italic;
      height: 300px;
      width:200px;
  }
+
+
+
+
+ .pots td:hover {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+color:red;
+}
